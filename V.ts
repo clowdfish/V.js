@@ -1,5 +1,5 @@
-/// <reference path="../typings/jquery/jquery.d.ts" />
-/// <reference path="../typings/underscore/underscore.d.ts" />
+/// <reference path="typings/jquery/jquery.d.ts" />
+/// <reference path="typings/lodash/lodash.d.ts" />
 
 module V {
   'use strict';
@@ -71,7 +71,7 @@ module V {
   function validateForm($form: JQuery, options: IVConfig): boolean {
     var result: boolean = true;
 
-    // Validation rules
+    // Find all validatable input fields and validate them
     $form.find('[' + options.rulesSelector + ']').each(function(index: number, el: HTMLElement): void {
       var valid: boolean = validateInput($(el), options);
       if ( !valid ) {
