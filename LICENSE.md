@@ -1,28 +1,21 @@
-# V
+The MIT License (MIT)
 
-> A simple validation library
+Copyright (c) 2014 clowdfish
 
-V is a simple validation plugin for jQuery. This is all you can do with it:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Declare validation rules in your markup
-* Check if a field or a whole form is valid
-* Apply side effects (set/remove classes) to input elements or their parent elements
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Install
-
-The easiest way to install V is via [bower](http://bower.io):
-
-```
-$ bower install V --save-dev
-```
-
-Then you can include V using your favourite build tool, or simply load it into your markup via a `<script>` tag:
-
-```html
-<script src="bower_components/V/V.min.js"></script>
-```
-
-## Use
-
-## Contribute
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
