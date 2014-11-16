@@ -1,0 +1,26 @@
+{
+  "name": "V",
+  "version": "0.1.0",
+  "authors": [
+    "Tim von Oldenburg <tim@tvooo.de>"
+  ],
+  "description": "A simple validation library",
+  "main": "V.js",
+  "keywords": [
+    "validation",
+    "clowdfish",
+    "jquery-plugin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/clowdfish/V",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
