@@ -12,7 +12,7 @@ gulp.task('default', function() {
       target: 'ES5'
     })
   );
-  tsStreams.dts.pipe(gulp.dest('.'))
+  //tsStreams.dts.pipe(gulp.dest('.'))
   tsStreams.js
     .pipe(gulp.dest('.'))
     .pipe(uglify())
