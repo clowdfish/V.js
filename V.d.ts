@@ -9,5 +9,5 @@ declare module V {
 }
 
 interface JQuery {
-  validate(): boolean;
+  validate(options?: V.IVConfig): boolean;
 }
